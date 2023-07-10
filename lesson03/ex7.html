@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the nhom noi dung-proges- datalist</title>
+</head>
+<body>
+   <form>
+    <fieldset>
+        <legend>thong tin bao cao</legend>
+        <label for="">thiet ke giao dien web</label><br>
+        <progress value="88" max="100"></progress><br>x
+        <label for="">phan tich so do thuc te</label><br>
+        <progress value="50" max="100"></progress><br>
+        <label for="">viet tai lieu phan tich thiet ke</label><br>
+        <progress value="30" max="100"></progress><br>
+        
+        <fieldset>
+            <legend>
+                thong tin danh sach mon hoc
+            </legend>
+           <input list="item" name="listItem"id="listItem"/>
+           <datalist id="item" name="dataItem" id="dataItem">
+            <option value="lam viec voi html"></option>
+            <option value="lam viec voi css"></option>
+           <option value="lam viec voi javascrip"></option>
+           <option value="lam viec voi jquery"></option>
+           <option value="lam viec voi photoshop"></option>
+           </datalist>
+        </fieldset>
+
+   </form>
+</body>
+</html>
